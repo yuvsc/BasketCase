@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  color:#381E0B;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -11,6 +12,20 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  background-color: #381E0B!important;
+}
+
+.nav-pills>li>a {
+  color:white;
+}
+
+.nav-pills>li>a:hover, .nav-pills>li>a:focus {
+  background-color: #381E0B!important;
+}
+
 
 /* Custom page header */
 .header {
@@ -22,13 +37,17 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+  color: #e5e5e5;
+  text-shadow: 1px 1px #381E0B;
+
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: #777;
   border-top: 1px solid #e5e5e5;
+  color: #e5e5e5;
+  text-shadow: 1px 1px #381E0B;
 }
 
 /* Customize container */
@@ -57,8 +76,10 @@ body {
   margin: 40px 0;
   background-color: rgba(255, 255, 255, .60);
   border-radius: 5px;
-  padding-right: 10px;
+  padding: 20px;
+  text-align: center;
 }
+
 .marketing p + h4 {
   margin-top: 28px;
 }
